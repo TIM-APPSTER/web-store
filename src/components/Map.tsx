@@ -1,9 +1,12 @@
+import {useBins} from '../hooks/useBins'
+
 function Map() {
-  return (
-    <div>
-      Здесь будет карта Mapbox
-    </div>
-  );
+    const bins = useBins()
+    return (
+        <div>
+            Здесь будет карта Mapbox
+        </div>
+    );
 }
 
 export default Map;
